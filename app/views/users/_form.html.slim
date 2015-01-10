@@ -1,0 +1,19 @@
+= simple_form_for @user, html: { class: "form-horizontal" } do |f|
+  .field= f.input :name
+  = error_span(@user[:name])
+  .field= f.input :sex,
+      collection: [["男", 1],["女", 2]],
+      as: :radio_buttons,
+      item_wrapper_class: 'inline'
+  = error_span(@user[:sex])
+  .field= f.input :zipcode
+  = error_span(@user[:zipcode])
+  .field
+    = f.collection_select :pref, AddressMaster.select(:pref).distinct, :pref, :pref, include_blank: true
+    = error_span(@user[:pref])
+    = f.collection_select :city, AddressMaster.select(:city).distinct.where(pref: @user[:pref]), :city, :city, include_blank: true
+  .field= f.input :address
+  = error_span(@user[:address])
+  = f.button :submit, class: 'btn-primary'
+  '
+  = link_to t('.cancel', :default => t("helpers.links.cancel")), users_path, class: 'btn btn-default'
