@@ -1,28 +1,5 @@
-== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+# 1. 連動コンボ
+- ユーザー登録画面で県を選択すると、市区町村がコンボに表示される
+- データは[郵便局のサイト](http://www.post.japanpost.jp/zipcode/dl/readme.html)からKEN_ALL.ZIPをダウンロードして、seed.rbでバルクインサートしている
+- csvからデータ構造、内容を変えていない。正規化、クレンジングが必要
