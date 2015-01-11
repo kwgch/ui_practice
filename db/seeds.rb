@@ -4,7 +4,7 @@ arr = []
 i=0
 CSV.foreach('db/KEN_ALL.CSV') do |row|
   i += 0
-  break if i > 10000
+  break if i > 100
   arr << AddressMaster.new(
     local_gov_cd: row[0],
     zip5: row[1],

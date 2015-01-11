@@ -1,54 +1,3 @@
-2015-01-11T11:55:03.472889+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2015-01-11T11:55:05.181118+00:00 heroku[web.1]: Process exited with status 143
-2015-01-11T11:55:20.696989+00:00 heroku[run.7179]: Process running mem=597M(116.7%)
-2015-01-11T11:55:20.697234+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:55:40.825463+00:00 heroku[run.7179]: Process running mem=597M(116.7%)
-2015-01-11T11:55:40.825717+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:56:00.630655+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:56:00.630372+00:00 heroku[run.7179]: Process running mem=597M(116.7%)
-2015-01-11T11:56:20.782976+00:00 heroku[run.7179]: Process running mem=597M(116.7%)
-2015-01-11T11:56:20.783391+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:56:40.582379+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
-2015-01-11T11:56:40.582379+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:57:00.727275+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
-2015-01-11T11:57:00.727522+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:57:17.923178+00:00 heroku[run.7179]: Client connection is idle for 3600 seconds; closing
-2015-01-11T11:57:17.924595+00:00 heroku[run.7179]: Client connection closed. Sending SIGHUP to all processes
-2015-01-11T11:57:20.908858+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
-2015-01-11T11:57:20.909000+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:57:22.960222+00:00 heroku[run.7179]: Client connection closed. Sending SIGHUP to all processes
-2015-01-11T11:57:27.995083+00:00 heroku[run.7179]: Client connection closed. Sending SIGHUP to all processes
-2015-01-11T11:57:33.031050+00:00 heroku[run.7179]: Error R16 (Detached) -> An attached process is not responding to SIGHUP after its external connection was closed.
-2015-01-11T11:57:40.739916+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:57:40.739614+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
-2015-01-11T11:58:00.823490+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
-2015-01-11T11:58:00.823782+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:58:20.669116+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
-2015-01-11T11:58:20.669400+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:58:40.857422+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
-2015-01-11T11:58:40.857668+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:59:00.598215+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
-2015-01-11T11:59:00.598459+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:59:20.715043+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
-2015-01-11T11:59:20.715283+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:59:40.854808+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T11:59:40.854559+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
-2015-01-11T12:00:00.684368+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
-2015-01-11T12:00:00.684625+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T12:00:20.839478+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T12:00:20.839218+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
-2015-01-11T12:00:40.657987+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T12:00:40.657678+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
-2015-01-11T12:01:00.805079+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
-2015-01-11T12:01:00.805326+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
-2015-01-11T12:01:16.382945+00:00 heroku[run.7179]: Process exited with status 129
-2015-01-11T12:01:16.394260+00:00 heroku[run.7179]: State changed from up to complete
-2015-01-11T13:30:16.592826+00:00 heroku[web.1]: Unidling
-2015-01-11T13:30:16.592826+00:00 heroku[web.1]: State changed from down to starting
-2015-01-11T13:30:22.455192+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 17286 -e production`
-2015-01-11T13:30:23.373778+00:00 app[web.1]: Warning: You're using Rubygems 2.0.14 with Spring. Upgrade to at least Rubygems 2.1.0 and run `gem pristine --all` for better startup performance.
-2015-01-11T13:30:31.108145+00:00 heroku[web.1]: State changed from starting to up
-2015-01-11T13:30:31.053656+00:00 app[web.1]: [2015-01-11 13:30:31] INFO  WEBrick::HTTPServer#start: pid=2 port=17286
 2015-01-11T13:30:31.048650+00:00 app[web.1]: [2015-01-11 13:30:31] INFO  WEBrick 1.3.1
 2015-01-11T13:30:31.052833+00:00 app[web.1]: [2015-01-11 13:30:31] INFO  ruby 2.0.0 (2014-11-13) [x86_64-linux]
 2015-01-11T13:30:32.833041+00:00 app[web.1]: => Run `rails server -h` for more startup options
@@ -99,3 +48,54 @@
 2015-01-11T13:32:36.165214+00:00 heroku[run.2564]: State changed from starting to up
 2015-01-11T13:33:28.623049+00:00 heroku[run.2564]: State changed from up to complete
 2015-01-11T13:33:28.609124+00:00 heroku[run.2564]: Process exited with status 0
+2015-01-11T13:36:13.635771+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by m.kwgch@gmail.com
+2015-01-11T13:36:18.309659+00:00 heroku[run.1477]: Awaiting client
+2015-01-11T13:36:18.338520+00:00 heroku[run.1477]: Starting process with command `bundle exec rake db:migrate`
+2015-01-11T13:36:18.711522+00:00 heroku[run.1477]: State changed from starting to up
+2015-01-11T13:36:22.267510+00:00 heroku[run.1477]: Process exited with status 0
+2015-01-11T13:36:22.277128+00:00 heroku[run.1477]: State changed from up to complete
+2015-01-11T13:39:57.169060+00:00 heroku[api]: Deploy 4d38e73 by m.kwgch@gmail.com
+2015-01-11T13:39:57.169060+00:00 heroku[api]: Release v8 created by m.kwgch@gmail.com
+2015-01-11T13:39:57.521320+00:00 heroku[web.1]: State changed from up to starting
+2015-01-11T13:40:00.134889+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-11T13:40:00.703417+00:00 app[web.1]: [2015-01-11 13:40:00] FATAL SignalException: SIGTERM
+2015-01-11T13:40:00.703452+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2015-01-11T13:40:00.703455+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2015-01-11T13:40:00.703456+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2015-01-11T13:40:00.703458+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2015-01-11T13:40:00.703459+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/handler/webrick.rb:35:in `run'
+2015-01-11T13:40:00.703461+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/server.rb:286:in `start'
+2015-01-11T13:40:00.703462+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/commands/server.rb:80:in `start'
+2015-01-11T13:40:00.703464+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+2015-01-11T13:40:00.703466+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/commands/commands_tasks.rb:75:in `tap'
+2015-01-11T13:40:00.703467+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/commands/commands_tasks.rb:75:in `server'
+2015-01-11T13:40:00.703469+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+2015-01-11T13:40:00.703470+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/commands.rb:17:in `<top (required)>'
+2015-01-11T13:40:00.703472+00:00 app[web.1]: 	/app/bin/rails:8:in `require'
+2015-01-11T13:40:00.703474+00:00 app[web.1]: 	/app/bin/rails:8:in `<top (required)>'
+2015-01-11T13:40:00.703475+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/spring-1.2.0/lib/spring/client/rails.rb:27:in `load'
+2015-01-11T13:40:00.703477+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/spring-1.2.0/lib/spring/client/rails.rb:27:in `call'
+2015-01-11T13:40:00.703478+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/spring-1.2.0/lib/spring/client/command.rb:7:in `call'
+2015-01-11T13:40:00.703479+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/spring-1.2.0/lib/spring/client.rb:26:in `run'
+2015-01-11T13:40:00.703481+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/spring-1.2.0/bin/spring:48:in `<top (required)>'
+2015-01-11T13:40:00.703482+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/spring-1.2.0/lib/spring/binstub.rb:11:in `load'
+2015-01-11T13:40:00.703483+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/spring-1.2.0/lib/spring/binstub.rb:11:in `<top (required)>'
+2015-01-11T13:40:00.703484+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+2015-01-11T13:40:00.703486+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+2015-01-11T13:40:00.703487+00:00 app[web.1]: 	/app/bin/spring:16:in `<top (required)>'
+2015-01-11T13:40:00.703488+00:00 app[web.1]: 	bin/rails:3:in `load'
+2015-01-11T13:40:00.703496+00:00 app[web.1]: [2015-01-11 13:40:00] INFO  going to shutdown ...
+2015-01-11T13:40:00.703490+00:00 app[web.1]: 	bin/rails:3:in `<main>'
+2015-01-11T13:40:00.703498+00:00 app[web.1]: [2015-01-11 13:40:00] INFO  WEBrick::HTTPServer#start done.
+2015-01-11T13:40:00.703499+00:00 app[web.1]: Exiting
+2015-01-11T13:40:01.611556+00:00 heroku[web.1]: Process exited with status 143
+2015-01-11T13:40:02.738352+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 52241 -e production`
+2015-01-11T13:40:03.952319+00:00 app[web.1]: Warning: You're using Rubygems 2.0.14 with Spring. Upgrade to at least Rubygems 2.1.0 and run `gem pristine --all` for better startup performance.
+2015-01-11T13:40:07.504560+00:00 app[web.1]: [2015-01-11 13:40:07] INFO  ruby 2.0.0 (2014-11-13) [x86_64-linux]
+2015-01-11T13:40:07.504945+00:00 app[web.1]: [2015-01-11 13:40:07] INFO  WEBrick::HTTPServer#start: pid=2 port=52241
+2015-01-11T13:40:07.504463+00:00 app[web.1]: [2015-01-11 13:40:07] INFO  WEBrick 1.3.1
+2015-01-11T13:40:08.060717+00:00 heroku[web.1]: State changed from starting to up
+2015-01-11T13:41:05.456396+00:00 heroku[api]: Starting process with command `bundle exec rake db:seed` by m.kwgch@gmail.com
+2015-01-11T13:41:10.508739+00:00 heroku[run.5892]: Awaiting client
+2015-01-11T13:41:10.954349+00:00 heroku[run.5892]: Starting process with command `bundle exec rake db:seed`
+2015-01-11T13:41:10.724122+00:00 heroku[run.5892]: State changed from starting to up
