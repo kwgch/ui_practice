@@ -1,0 +1,101 @@
+2015-01-11T11:55:03.472889+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-01-11T11:55:05.181118+00:00 heroku[web.1]: Process exited with status 143
+2015-01-11T11:55:20.696989+00:00 heroku[run.7179]: Process running mem=597M(116.7%)
+2015-01-11T11:55:20.697234+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:55:40.825463+00:00 heroku[run.7179]: Process running mem=597M(116.7%)
+2015-01-11T11:55:40.825717+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:56:00.630655+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:56:00.630372+00:00 heroku[run.7179]: Process running mem=597M(116.7%)
+2015-01-11T11:56:20.782976+00:00 heroku[run.7179]: Process running mem=597M(116.7%)
+2015-01-11T11:56:20.783391+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:56:40.582379+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
+2015-01-11T11:56:40.582379+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:57:00.727275+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
+2015-01-11T11:57:00.727522+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:57:17.923178+00:00 heroku[run.7179]: Client connection is idle for 3600 seconds; closing
+2015-01-11T11:57:17.924595+00:00 heroku[run.7179]: Client connection closed. Sending SIGHUP to all processes
+2015-01-11T11:57:20.908858+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
+2015-01-11T11:57:20.909000+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:57:22.960222+00:00 heroku[run.7179]: Client connection closed. Sending SIGHUP to all processes
+2015-01-11T11:57:27.995083+00:00 heroku[run.7179]: Client connection closed. Sending SIGHUP to all processes
+2015-01-11T11:57:33.031050+00:00 heroku[run.7179]: Error R16 (Detached) -> An attached process is not responding to SIGHUP after its external connection was closed.
+2015-01-11T11:57:40.739916+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:57:40.739614+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
+2015-01-11T11:58:00.823490+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
+2015-01-11T11:58:00.823782+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:58:20.669116+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
+2015-01-11T11:58:20.669400+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:58:40.857422+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
+2015-01-11T11:58:40.857668+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:59:00.598215+00:00 heroku[run.7179]: Process running mem=599M(117.2%)
+2015-01-11T11:59:00.598459+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:59:20.715043+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
+2015-01-11T11:59:20.715283+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:59:40.854808+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T11:59:40.854559+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
+2015-01-11T12:00:00.684368+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
+2015-01-11T12:00:00.684625+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T12:00:20.839478+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T12:00:20.839218+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
+2015-01-11T12:00:40.657987+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T12:00:40.657678+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
+2015-01-11T12:01:00.805079+00:00 heroku[run.7179]: Process running mem=600M(117.2%)
+2015-01-11T12:01:00.805326+00:00 heroku[run.7179]: Error R14 (Memory quota exceeded)
+2015-01-11T12:01:16.382945+00:00 heroku[run.7179]: Process exited with status 129
+2015-01-11T12:01:16.394260+00:00 heroku[run.7179]: State changed from up to complete
+2015-01-11T13:30:16.592826+00:00 heroku[web.1]: Unidling
+2015-01-11T13:30:16.592826+00:00 heroku[web.1]: State changed from down to starting
+2015-01-11T13:30:22.455192+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 17286 -e production`
+2015-01-11T13:30:23.373778+00:00 app[web.1]: Warning: You're using Rubygems 2.0.14 with Spring. Upgrade to at least Rubygems 2.1.0 and run `gem pristine --all` for better startup performance.
+2015-01-11T13:30:31.108145+00:00 heroku[web.1]: State changed from starting to up
+2015-01-11T13:30:31.053656+00:00 app[web.1]: [2015-01-11 13:30:31] INFO  WEBrick::HTTPServer#start: pid=2 port=17286
+2015-01-11T13:30:31.048650+00:00 app[web.1]: [2015-01-11 13:30:31] INFO  WEBrick 1.3.1
+2015-01-11T13:30:31.052833+00:00 app[web.1]: [2015-01-11 13:30:31] INFO  ruby 2.0.0 (2014-11-13) [x86_64-linux]
+2015-01-11T13:30:32.833041+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-01-11T13:30:32.833039+00:00 app[web.1]: => Rails 4.2.0.rc2 application starting in production on http://0.0.0.0:17286
+2015-01-11T13:30:32.833031+00:00 app[web.1]: => Booting WEBrick
+2015-01-11T13:30:32.833045+00:00 app[web.1]: Started GET "/users/new" for 126.109.129.67 at 2015-01-11 13:30:32 +0000
+2015-01-11T13:30:32.833043+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-01-11T13:30:32.940729+00:00 app[web.1]: Processing by UsersController#new as HTML
+2015-01-11T13:30:33.249067+00:00 heroku[router]: at=info method=GET path="/users/new" host=ui-practice.herokuapp.com request_id=9b222dbe-139c-4201-9865-2cc6653b3487 fwd="126.109.129.67" dyno=web.1 connect=2ms service=521ms status=200 bytes=4901
+2015-01-11T13:30:33.230207+00:00 app[web.1]:   Rendered users/_form.html.slim (220.8ms)
+2015-01-11T13:30:33.151112+00:00 app[web.1]:   [1m[36mAddressMaster Load (1.6ms)[0m  [1mSELECT DISTINCT "address_masters"."pref" FROM "address_masters"[0m
+2015-01-11T13:30:33.230340+00:00 app[web.1]:   Rendered users/new.html.slim within layouts/application (247.7ms)
+2015-01-11T13:30:33.246937+00:00 app[web.1]: Completed 200 OK in 306ms (Views: 263.4ms | ActiveRecord: 18.8ms)
+2015-01-11T13:30:33.155312+00:00 app[web.1]:   [1m[35mAddressMaster Load (0.8ms)[0m  SELECT DISTINCT "address_masters"."city" FROM "address_masters" WHERE "address_masters"."pref" IS NULL
+2015-01-11T13:30:33.812312+00:00 heroku[router]: at=info method=GET path="/assets/application-25183c254d0b4acb5fcb2d495fd4e57f.css" host=ui-practice.herokuapp.com request_id=be184617-27ae-4ce2-b328-3f089dbea9ca fwd="126.109.129.67" dyno=web.1 connect=1ms service=48ms status=200 bytes=23285
+2015-01-11T13:30:34.416977+00:00 heroku[router]: at=info method=GET path="/assets/application-4c042776f39b7c45be0a0870903cdc9b.js" host=ui-practice.herokuapp.com request_id=9921d1ec-d38f-4f3d-b650-039433ef160b fwd="126.109.129.67" dyno=web.1 connect=1ms service=241ms status=200 bytes=47424
+2015-01-11T13:30:35.558039+00:00 heroku[router]: at=info method=GET path="/images/favicon.ico" host=ui-practice.herokuapp.com request_id=00c3e6c8-cd73-4722-80f2-179e39dbd9b4 fwd="126.109.129.67" dyno=web.1 connect=0ms service=13ms status=404 bytes=1829
+2015-01-11T13:30:35.549124+00:00 app[web.1]: Started GET "/images/favicon.ico" for 126.109.129.67 at 2015-01-11 13:30:35 +0000
+2015-01-11T13:30:35.554312+00:00 app[web.1]: 
+2015-01-11T13:30:35.554318+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+2015-01-11T13:30:35.554325+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/rack/logger.rb:20:in `block in call'
+2015-01-11T13:30:35.554321+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.0.rc2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2015-01-11T13:30:35.554320+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.0.rc2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2015-01-11T13:30:35.554330+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.0.rc2/lib/active_support/tagged_logging.rb:68:in `tagged'
+2015-01-11T13:30:35.554348+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/content_length.rb:15:in `call'
+2015-01-11T13:30:35.554326+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.0.rc2/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2015-01-11T13:30:35.554333+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.0.rc2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2015-01-11T13:30:35.554335+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/methodoverride.rb:22:in `call'
+2015-01-11T13:30:35.554342+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/sendfile.rb:113:in `call'
+2015-01-11T13:30:35.554346+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+2015-01-11T13:30:35.554340+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.2.0.rc2/lib/action_dispatch/middleware/static.rb:113:in `call'
+2015-01-11T13:30:35.554349+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/handler/webrick.rb:89:in `service'
+2015-01-11T13:30:35.554352+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2015-01-11T13:30:35.554343+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/engine.rb:518:in `call'
+2015-01-11T13:30:35.554355+00:00 app[web.1]: 
+2015-01-11T13:30:35.554323+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/rack/logger.rb:38:in `call_app'
+2015-01-11T13:30:35.554345+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/application.rb:164:in `call'
+2015-01-11T13:30:35.554328+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.0.rc2/lib/active_support/tagged_logging.rb:26:in `tagged'
+2015-01-11T13:30:35.554332+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.2.0.rc2/lib/rails/rack/logger.rb:20:in `call'
+2015-01-11T13:30:35.554354+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2015-01-11T13:30:35.554339+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.0.rc2/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+2015-01-11T13:30:35.554337+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.6.0/lib/rack/runtime.rb:18:in `call'
+2015-01-11T13:30:35.554351+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2015-01-11T13:30:35.554356+00:00 app[web.1]: 
+2015-01-11T13:32:31.415791+00:00 heroku[api]: Starting process with command `bundle exec rails c` by m.kwgch@gmail.com
+2015-01-11T13:32:35.789507+00:00 heroku[run.2564]: Awaiting client
+2015-01-11T13:32:35.818812+00:00 heroku[run.2564]: Starting process with command `bundle exec rails c`
+2015-01-11T13:32:36.165214+00:00 heroku[run.2564]: State changed from starting to up
+2015-01-11T13:33:28.623049+00:00 heroku[run.2564]: State changed from up to complete
+2015-01-11T13:33:28.609124+00:00 heroku[run.2564]: Process exited with status 0
